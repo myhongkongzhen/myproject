@@ -1,0 +1,16 @@
+
+**/.metadata/
+**/RemoteSystemsTempFiles/
+**/.settings/
+**/target/
+**/*.classpath
+**/*.project
+**/*.class
+**/*.swp
+**/.svn/
+
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+

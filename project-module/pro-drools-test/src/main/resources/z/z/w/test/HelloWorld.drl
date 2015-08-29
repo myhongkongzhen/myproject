@@ -1,0 +1,24 @@
+package z.z.w.test
+ 
+import z.z.w.test.dto.drools.Sun;
+
+global java.util.List list
+ 
+ /*
+rule "Hello World"
+    when
+        m : Message( status == Message.HELLO, message : message )
+    then
+        System.out.println( message );
+    	m.setMessage( "Goodbye cruel world" );
+        m.setStatus ( Message.GOODBYE );
+        update( m );
+end
+*/
+
+rule "Good Bye"
+    when
+        Sun( status == 1, message : message,s:sum );
+    then
+        System.out.println( message+"--"+s );
+end
